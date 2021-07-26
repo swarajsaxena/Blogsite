@@ -428,6 +428,7 @@ html {
 }
 
 .about-container .about img {
+  width: 550px;
   border: 1px solid;
   margin-right: 100px;
 }
@@ -445,7 +446,7 @@ html {
   letter-spacing: 2px;
 }
 
-.conatct-container {
+.contact-container {
   height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
