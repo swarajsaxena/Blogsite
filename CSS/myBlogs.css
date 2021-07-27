@@ -1,0 +1,80 @@
+.page-title {
+  font-size: 4em;
+  font-weight: 100;
+  text-align: center;
+  padding: 50px 0;
+  letter-spacing: 10px;
+}
+
+.allBlogs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainBlog {
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1400px;
+  border: 1px solid;
+}
+
+.mainBlog .image-box {
+  width: 700px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.mainBlog .image-box img {
+  height: 300px;
+}
+
+.information {
+  width: 100%;
+  padding: 40px;
+}
+
+.information .time-date {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.information .blogTitle {
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.information .desc {
+  letter-spacing: 1px;
+  font-size: 1.1em;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.information a {
+  background: var(--purple);
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.information a:hover {
+  border-radius: 5px;
+  background: black;
+}
+/*# sourceMappingURL=myBlogs.css.map */

@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valiant Echo</title>
     <link rel="stylesheet" href="CSS\style.css">
+    <link rel="stylesheet" href="CSS/header-navbar-footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -21,17 +25,21 @@
 
     <div class="nav-container">
         <div class="navbar">
-            <div class="nav-items">Home</div>
-            <div class="nav-items">About</div>
-            <div class="nav-items">My Blog</div>
-            <div class="nav-items">Contact</div>
-            <div class="nav-items right-border">Icons</div>
+            <a href="/index.html" class="nav-items">Home</a>
+            <a href="#" class="nav-items">About</a>
+            <a href="HTML Pages/myBlog.html" class="nav-items">My Blog</a>
+            <a href="#" class="nav-items">Contact</a>
+            <div class="nav-items right-border">
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fas fa-phone-alt"></i>
+            </div>
         </div>
     </div>
 
     <div class="container-featured">
         <div class="status">FEATURED POST</div>
-        <div class="featured">
+        <a href="/HTML Pages/roadtrips.html" class="featured">
             <img src="https://images.unsplash.com/photo-1558980395-2f289089d3ec?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
                 alt="">
 
@@ -42,7 +50,7 @@
                     after being restricted for more than a year? If you are someone who is always...
                 </div>
             </div>
-        </div>
+        </a>
     </div>
 
     <div class="newsletter-container">
@@ -60,18 +68,18 @@
         <div class="two-blog">
             <div class="blog-link">
                 <div class="img-box">
-                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                    <img src="https://images.unsplash.com/photo-1558980395-2f289089d3ec?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
                         alt="Food">
                 </div>
                 <div class="details">
                     <div class="date-time">Jul 18 - 2 min</div>
-                    <div class="title">Blog on food</div>
-                    <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste facere ut
-                        eveniet dolorum, quod, possimus alias iure ipsa officiis a sapiente. Laborum similique id odit
-                        quibusdam maiores sapiente harum minus?...
+                    <div class="title">Top 5 best road trips</div>
+                    <div class="description">Well, a traveller or not, who would want to miss out on any trip,
+                        especially
+                        after being restricted for more than a year? If you are someone who is always...
                     </div>
 
-                    <a href="#">Read More</a>
+                    <a href="/HTML Pages/roadtrips.html">Read More</a>
                 </div>
             </div>
             <div class="blog-link">
@@ -169,9 +177,12 @@
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore delectus facilis nemo praesentium
                     explicabo dolorem sequi? Sunt necessitatibus expedita voluptatem harum omnis! Debitis cum recusandae
                     explicabo voluptatum expedita suscipit a? Ea cum nihil in voluptatem magni hic, minus accusamus
-                    laborum
-                    laudantium nobis, quos soluta recusandae, sapiente eveniet amet earum quae?cipit a? Ea cum nihil in
-                    voluptatem magni hic, mincipit a? Ea cum nihil in voluptatem magni hic, min
+                    laborumvoluptatum expedita suscipit a? Ea cum nihil in voluptatem
+                    <div class="social-links">
+                        <i class="fab fa-instagram-square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
                 </div>
             </div>
         </div>
@@ -179,7 +190,31 @@
 
     <div class="contact-container">
 
-        This is the contact Form
+        <div class="contact-title">
+            Drop Me a Line, Let Me Know What You Think
+        </div>
+
+        <form class="contact-form" action="">
+            <div class="name">
+                <div class="first-name">
+                    First Name
+                    <input type="text">
+                </div>
+                <div class="last-name">
+                    Second Name
+                    <input type="text">
+                </div>
+            </div>
+            <div class="email">
+                Email
+                <input type="text">
+            </div>
+            <div class="message">
+                Message
+                <input type="text">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
     </div>
 
     <div class="footer-container">

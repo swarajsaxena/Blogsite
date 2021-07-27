@@ -1,0 +1,56 @@
+.article-container {
+  margin: 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.article-container .article {
+  padding: 100px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  border: 1px solid;
+  width: 1200px;
+}
+
+.article-container .article h1 {
+  font-family: Playfair Display;
+  font-size: 4em;
+  margin-bottom: 60px;
+}
+
+.article-container .article .bold {
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+}
+
+.article-container .article p {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  letter-spacing: 0.5px;
+}
+
+.article-container .article img {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.article-container .back {
+  margin-top: 80px;
+  padding: 20px 40px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: white;
+  background: var(--purple);
+}
+/*# sourceMappingURL=road-trip.css.map */

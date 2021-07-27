@@ -1,0 +1,49 @@
+.article-container{
+    margin: 100px 0;
+    // border: 1px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    .article{
+        padding: 100px;
+        height: min-content;
+        border: 1px solid;
+        width: 1200px;
+
+        h1{
+            font-family: Playfair Display;
+            font-size: 4em;
+            margin-bottom: 60px;
+        }
+
+        .bold{
+            margin-top: 40px;
+            font-weight: 700;
+            font-size: 1.5em;
+            letter-spacing: 2px;
+        }
+
+        p{
+            margin-bottom: 20px;
+            font-size: 1.2em;
+            letter-spacing: 0.5px;
+        }
+        
+        img{
+            margin-bottom: 20px;
+            width: 100%;
+        }
+    }
+
+    .back{
+        // border: 1px solid;
+        margin-top: 80px;
+        padding: 20px 40px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        color: white;
+        background: var(--purple);
+    }
+
+}
