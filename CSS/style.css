@@ -49,7 +49,6 @@ html {
           align-items: center;
   padding: 100px;
   padding-top: 150px;
-  height: 1100px;
 }
 
 .container-featured .featured {
@@ -136,16 +135,16 @@ html {
 
 .newsletter-container .newsletter .text {
   font-family: Playfair Display;
-  font-size: 3em;
+  font-size: 1em;
   font-weight: 700;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
 }
 
 .newsletter-container .newsletter input {
   border: none;
   border-bottom: 2px solid;
-  width: 300px;
-  height: 60px;
+  width: 200px !important;
+  height: 80px !important;
   font-size: 1.1em;
   letter-spacing: 3px;
   text-align: center;
@@ -330,8 +329,7 @@ html {
           flex-direction: column;
   border-top: 1px solid;
   border-bottom: 1px solid;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding: 80px 0;
   width: 95%;
 }
 
@@ -469,21 +467,6 @@ html {
   font-size: 1.5em;
 }
 
-.contact-container .contact-form :-ms-input-placeholder {
-  font-weight: 500;
-  font-size: 1.5em;
-}
-
-.contact-container .contact-form ::-ms-input-placeholder {
-  font-weight: 500;
-  font-size: 1.5em;
-}
-
-.contact-container .contact-form ::placeholder {
-  font-weight: 500;
-  font-size: 1.5em;
-}
-
 .contact-container .contact-form button {
   height: 90px;
   cursor: pointer;
@@ -500,6 +483,7 @@ html {
 .contact-container .contact-form button:hover {
   background: black;
   letter-spacing: 6px;
+  border-radius: 5px;
 }
 
 .footer-container {
@@ -531,5 +515,537 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media only screen and (max-width: 1550px){
+
+  .status {
+    margin-right: -400px;
+    margin-top: -760px;
+    background: white;
+    border: 1px solid;
+    width: 400px;
+    height: 80px;
+    z-index: 10;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-weight: 300;
+    font-size: 1.5em;
+    letter-spacing: 10px;
+  }
+
+  .container-featured .featured img {
+    width: 800px;
+  }
+
+  .newsletter-container .newsletter input {
+    border: none;
+    border-bottom: 2px solid;
+    width: 250px;
+    height: 50px;
+    font-size: 1em;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
+  .newsletter-container .newsletter button{
+    height: 50px;
+  }
+
+  .train-container .two-blog .blog-link {
+    width: 550px;
+    height: 300px;
+  }
+
+  .train-container .two-blog .blog-link .img-box {
+    width: 550px;
+    overflow: hidden;
+  }
+  
+  .train-container .two-blog .blog-link .img-box img {
+    height: 300px;
+  }
+
+  .train-container .two-blog .blog-link .details {
+    padding: 30px;
+  }
+
+  .train-container .two-blog .blog-link .details .title {
+    font-weight: 700;
+    font-size: 1.1em;
+  }
+  
+  .train-container .two-blog .blog-link .details .description {
+    letter-spacing: 0;
+    font-size: 1em;
+    overflow: hidden;
+    height: 110px;
+  }
+  
+  .train-container .two-blog .blog-link .details a {
+    background: var(--purple);
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .about-container .about-title {
+    font-size: 3em;
+    margin-bottom: 40px;
+  }
+
+  .about-container .about img {
+    width: 400px;
+    height: 300px;
+    border: 1px solid;
+    margin-right: 100px;
+  }
+  
+  .about-container .about .des {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 500px;
+    font-weight: 400;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+  }
+
+  .contact-container .contact-title {
+    font-size: 2.5em;
+    letter-spacing: 2px;
+  }
+
+  .contact-container .contact-form .name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 900px;
+  }
+
+  .contact-container .contact-form .name input {
+    width: 400px;
+  }
+
+  .contact-container .contact-form input {
+    height: 80px;
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 3px solid;
+    width: 900px;
+    font-size: 2em;
+    padding-left: 20px;
+    letter-spacing: 3px;
+  }
+
+  .email, .message{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 680px){
+
+  .status {
+    margin-right: -300px;
+    margin-top: -630px;
+    background: white;
+    border: 1px solid;
+    width: 300px;
+    height: 60px;
+    font-weight: 300;
+    font-size: 1.1em;
+    letter-spacing: 10px;
+  }
+
+  .container-featured .featured img {
+    width: 450px;
+  }
+
+  .newsletter-container .newsletter{
+    flex-direction: column;
+  }
+
+  .newsletter-container .newsletter {
+    height: 200px;
+    width: 1850px;
+    padding: 20px;
+  }
+
+  .newsletter-container .newsletter input {
+    border: none;
+    border-bottom: 2px solid;
+    width: 250px;
+    height: 50px;
+    font-size: 1em;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
+  .newsletter-container .newsletter button{
+    height: 50px;
+  }
+
+  .train-container .train-title {
+    font-weight: 300;
+    font-size: 1.8em;
+  }
+
+  .train-container .two-blog {
+    flex-direction: column;
+  }
+
+  .train-container .two-blog .blog-link {
+    width: 550px;
+    height: 300px;
+  }
+
+  .train-container .two-blog .blog-link .img-box {
+    width: 550px;
+    overflow: hidden;
+  }
+  
+  .train-container .two-blog .blog-link .img-box img {
+    height: 300px;
+  }
+
+  .train-container .two-blog .blog-link .details {
+    padding: 30px;
+  }
+
+  .train-container .two-blog .blog-link .details .title {
+    font-weight: 700;
+    font-size: 1.1em;
+  }
+  
+  .train-container .two-blog .blog-link .details .description {
+    letter-spacing: 0;
+    font-size: 1em;
+    overflow: hidden;
+    height: 110px;
+  }
+  
+  .train-container .two-blog .blog-link .details a {
+    background: var(--purple);
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .about-container .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-container .about-title {
+    font-size: 3em;
+    margin-bottom: 40px;
+  }
+
+  .about-container .about img {
+    width: 400px;
+    height: 300px;
+    border: 1px solid;
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .about-container .about .des {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 500px;
+    font-weight: 400;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+  }
+
+  .contact-container .contact-title {
+    padding: 0 30px;
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+
+  .contact-container .contact-form .name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 500px;
+  }
+
+  .contact-container .contact-form .name input {
+    width: 235px;
+  }
+
+  .contact-container .contact-form input {
+    height: 50px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 3px solid;
+    width: 500px;
+    font-size: 1em;
+    padding-left: 20px;
+    letter-spacing: 3px;
+  }
+
+  .email, .message{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-container .contact-form .message {
+    height: 110px;
+  }
+
+  .contact-container .contact-form button {
+    height: px;
+    cursor: pointer;
+    background: var(--purple);
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    letter-spacing: 3px;
+    margin-bottom: 100px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+}
+
+@media only screen and (max-width: 680px){
+
+  body{
+    /* background: rgb(245, 218, 218); */
+  }
+
+  .status {
+    display: none;
+    margin-right: -142px;
+    margin-top: -870px;
+    background: white;
+    border: 1px solid;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.7em;
+    letter-spacing: 4px;
+  }
+
+  .container-featured {
+    display: none;
+    width: 680px;
+    padding-top: 40px;
+  }
+
+  .container-featured .featured img {
+    width: 350px;
+  }
+
+  .newsletter-container .newsletter{
+    flex-direction: column;
+  }
+
+  .newsletter-container .newsletter {
+    height: 200px;
+    width: 1850px;
+    padding: 20px;
+  }
+
+  .newsletter-container .newsletter .enail-form{
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .newsletter-container .newsletter input {
+    border: none;
+    border-bottom: 2px solid;
+    width: 250px;
+    height: 40px !important;
+    font-size: 1em;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
+  .newsletter-container .newsletter button{
+    height: 40px;
+    margin-left: 10px;
+  }
+
+  .train-container .train-title {
+    font-weight: 300;
+    font-size: 1.8em;
+    text-align: center;
+  }
+
+  .train-container .two-blog {
+    flex-direction: column;
+  }
+
+  .train-container .two-blog .blog-link {
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+  }
+
+  .train-container .two-blog .blog-link .img-box {
+    width: none;
+    height: 0px;
+    overflow: hidden;
+  }
+  
+  .train-container .two-blog .blog-link .img-box img {
+    height: 0px;
+  }
+
+  .train-container .two-blog .blog-link .details {
+    padding: 30px;
+  }
+
+  .train-container .two-blog .blog-link .details .title {
+    font-weight: 700;
+    font-size: 1.1em;
+  }
+  
+  .train-container .two-blog .blog-link .details .description {
+    letter-spacing: 0;
+    font-size: 1em;
+    overflow: hidden;
+    height: 110px;
+  }
+  
+  .train-container .two-blog .blog-link .details a {
+    background: var(--purple);
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .about-container .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-container .about-title {
+    font-size: 3em;
+    margin-bottom: 40px;
+  }
+
+  .about-container .about img {
+    width: 300px;
+    height: 200px;
+    border: 1px solid;
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .about-container .about .des {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+            padding: 0 30px;
+    width: 500px;
+    font-weight: 400;
+    font-size: 1em;
+    letter-spacing: 2px;
+  }
+
+  .contact-container .contact-title {
+    padding: 0 20px;
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 5px;
+  }
+
+  .contact-container .contact-form .name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 400px;
+  }
+
+  .contact-container .contact-form .name input {
+    width: 175px;
+  }
+
+  .contact-container .contact-form input {
+    height: 40px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 3px solid;
+    width: 400px;
+    font-size: 1em;
+    padding-left: 20px;
+    letter-spacing: 3px;
+  }
+
+  .email, .message{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-container .contact-form .message {
+    height: 110px;
+  }
+
+  .contact-container .contact-form button {
+    height: 50px;
+    cursor: pointer;
+    background: var(--purple);
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    letter-spacing: 3px;
+    margin-bottom: 100px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
 }
 /*# sourceMappingURL=style.css.map */

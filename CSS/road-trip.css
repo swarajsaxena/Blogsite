@@ -35,6 +35,7 @@
 }
 
 .article-container .article p {
+  font-weight: 600;
   margin-bottom: 20px;
   font-size: 1.2em;
   letter-spacing: 0.5px;
@@ -50,7 +51,106 @@
   padding: 20px 40px;
   letter-spacing: 2px;
   font-weight: 600;
+  text-decoration: none;
   color: white;
   background: var(--purple);
+}
+
+.article-container .back:hover {
+  color: white;
+  background: black;
+}
+
+@media only screen and (max-width: 1550px){
+
+  .article-container .article {
+    padding: 80px;
+    width: 1000px;
+  }
+
+  .article-container .article h1 {
+    font-size: 3em;
+  }
+  
+  .article-container .article .bold {
+    font-size: 1.2em;
+    margin-top: 30px;
+  }
+  
+  .article-container .article p {
+    margin-bottom: 10px;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    
+  }
+
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 680px){
+
+  .article-container .article {
+    padding: 40px;
+    width: 500px;
+  }
+
+  .article-container .article h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .article-container .article .bold {
+    font-size: 1.2em;
+    margin-top: 30px;
+  }
+
+  img{
+    margin-top: 20px;
+  }
+  
+  .article-container .article p {
+    margin-bottom: 10px;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    
+  }
+  
+}
+
+@media only screen and (max-width: 680px){
+
+  body{
+    /* background: red; */
+  }
+
+  .article-container{
+    margin-top: 0px;
+  }
+
+  .article-container .article {
+    padding: 40px;
+    width: 500px;
+  }
+
+  .article-container .article h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .article-container .article .bold {
+    font-size: 1.2em;
+    margin-top: 30px;
+  }
+
+  img{
+    margin-top: 20px;
+  }
+  
+  .article-container .article p {
+    margin-bottom: 10px;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    
+  }
+  
 }
 /*# sourceMappingURL=road-trip.css.map */

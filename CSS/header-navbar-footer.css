@@ -12,7 +12,8 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 375px;
+  /* height: 375px; */
+  padding: 100px 20px;
 }
 
 .header .light-text {
@@ -35,11 +36,11 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
 }
 
 .nav-container .navbar {
-  border-top: 1px solid;
-  border-bottom: 1px solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -50,7 +51,7 @@
   -ms-flex-align: center;
   align-items: center;
   height: 80px;
-  width: 1850px;
+  width: 90%;
 }
 
 .nav-container .navbar .nav-items {
@@ -67,7 +68,7 @@
   align-items: center;
   border-left: 1px solid;
   height: 100%;
-  width: 300px;
+  width: 20%;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   letter-spacing: 2px;
@@ -120,3 +121,73 @@
   -ms-flex-align: center;
   align-items: center;
 }
+
+@media only screen and (max-width: 1550px){
+
+  .header .light-text {
+    font-size: 2em;
+    font-weight: 150;
+    letter-spacing: 10px;
+  }
+  
+  .header .bold-text {
+    font-family: Playfair Display;
+    font-weight: 800;
+    font-size: 7em;
+    letter-spacing: 4px;
+  }
+
+  .nav-container .navbar{
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 680px){
+
+  .header {
+    padding: 50px 20px;
+  }
+
+  .header .light-text {
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: none;
+    text-align: center;
+  }
+  
+  .header .bold-text {
+    font-family: Playfair Display;
+    font-weight: 800;
+    font-size: 4em;
+    letter-spacing: 4px;
+  }
+  
+}
+@media only screen and (max-width: 680px){
+
+  .header {
+    padding: 30px 20px;
+  }
+
+  .header .light-text {
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: none;
+    text-align: center;
+  }
+  
+  .header .bold-text {
+    margin-top: 10px;
+    font-family: Playfair Display;
+    font-weight: 800;
+    font-size: 1.6em;
+    text-align: center;
+    letter-spacing: 4px;
+  }
+
+  .nav-container{
+    display: none;
+  }
+  
+}
+
