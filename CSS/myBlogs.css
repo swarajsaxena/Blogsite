@@ -126,7 +126,7 @@
 
 }
 
-@media only screen and (max-width: 1300px) and (min-width: 380px){
+@media only screen and (max-width: 1300px) and (min-width: 460px){
 
   .page-title {
     font-size: 2em;
@@ -159,7 +159,7 @@
   
 }
 
-@media only screen and (max-width: 379px){
+@media only screen and (max-width: 459px){
   
   .page-title {
     margin-top: 10px;

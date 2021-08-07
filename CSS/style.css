@@ -662,7 +662,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 1300px) and (min-width: 380px) {
+@media only screen and (max-width: 1300px) and (min-width: 460px) {
   .status {
     margin-right: -300px;
     margin-top: -630px;
@@ -843,7 +843,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 459px) {
   body {
     /* background: rgb(245, 218, 218); */
   }
