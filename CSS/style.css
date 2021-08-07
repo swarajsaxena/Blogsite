@@ -1,19 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   font-family: Nunito;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  --purple: #5800CA;
+  box-sizing: border-box;
+  --purple: #5800ca;
 }
 
 html {
   scroll-behavior: smooth;
 }
-
-
 
 .status {
   margin-right: -500px;
@@ -27,11 +26,11 @@ html {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-weight: 300;
   font-size: 2em;
   letter-spacing: 10px;
@@ -42,11 +41,11 @@ html {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 100px;
   padding-top: 150px;
 }
@@ -98,8 +97,8 @@ html {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .newsletter-container .newsletter {
@@ -109,11 +108,11 @@ html {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 250px;
   width: 1850px;
   padding: 10px;
@@ -126,11 +125,11 @@ html {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .newsletter-container .newsletter .text {
@@ -205,17 +204,17 @@ html {
   padding: 80px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .train-container .train-title {
@@ -243,8 +242,8 @@ html {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
   overflow: hidden;
@@ -302,15 +301,15 @@ html {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .about-container .border {
@@ -318,15 +317,15 @@ html {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   border-top: 1px solid;
   border-bottom: 1px solid;
   padding: 80px 0;
@@ -346,8 +345,8 @@ html {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .about-container .about img {
@@ -361,12 +360,12 @@ html {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 800px;
   font-weight: 400;
   font-size: 1.8em;
@@ -387,15 +386,15 @@ html {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
@@ -416,11 +415,11 @@ html {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .contact-container .contact-form .name {
@@ -428,8 +427,8 @@ html {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 1200px;
 }
 
@@ -492,11 +491,11 @@ html {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-weight: 400;
   font-size: 1.5em;
   letter-spacing: 3px;
@@ -510,15 +509,14 @@ html {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-@media only screen and (max-width: 1550px){
-
+@media only screen and (max-width: 1550px) {
   .status {
     margin-right: -400px;
     margin-top: -760px;
@@ -531,11 +529,11 @@ html {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     font-weight: 300;
     font-size: 1.5em;
     letter-spacing: 10px;
@@ -555,7 +553,7 @@ html {
     text-align: center;
   }
 
-  .newsletter-container .newsletter button{
+  .newsletter-container .newsletter button {
     height: 50px;
   }
 
@@ -568,7 +566,7 @@ html {
     width: 550px;
     overflow: hidden;
   }
-  
+
   .train-container .two-blog .blog-link .img-box img {
     height: 300px;
   }
@@ -581,14 +579,14 @@ html {
     font-weight: 700;
     font-size: 1.1em;
   }
-  
+
   .train-container .two-blog .blog-link .details .description {
     letter-spacing: 0;
     font-size: 1em;
     overflow: hidden;
     height: 110px;
   }
-  
+
   .train-container .two-blog .blog-link .details a {
     background: var(--purple);
     color: white;
@@ -609,18 +607,18 @@ html {
     border: 1px solid;
     margin-right: 100px;
   }
-  
+
   .about-container .about .des {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     width: 500px;
     font-weight: 400;
     font-size: 1.2em;
@@ -637,8 +635,8 @@ html {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     width: 900px;
   }
 
@@ -657,14 +655,14 @@ html {
     letter-spacing: 3px;
   }
 
-  .email, .message{
+  .email,
+  .message {
     display: flex;
     flex-direction: column;
   }
 }
 
-@media only screen and (max-width: 1300px) and (min-width: 680px){
-
+@media only screen and (max-width: 1300px) and (min-width: 380px) {
   .status {
     margin-right: -300px;
     margin-top: -630px;
@@ -681,7 +679,7 @@ html {
     width: 450px;
   }
 
-  .newsletter-container .newsletter{
+  .newsletter-container .newsletter {
     flex-direction: column;
   }
 
@@ -701,7 +699,7 @@ html {
     text-align: center;
   }
 
-  .newsletter-container .newsletter button{
+  .newsletter-container .newsletter button {
     height: 50px;
   }
 
@@ -723,7 +721,7 @@ html {
     width: 550px;
     overflow: hidden;
   }
-  
+
   .train-container .two-blog .blog-link .img-box img {
     height: 300px;
   }
@@ -736,14 +734,14 @@ html {
     font-weight: 700;
     font-size: 1.1em;
   }
-  
+
   .train-container .two-blog .blog-link .details .description {
     letter-spacing: 0;
     font-size: 1em;
     overflow: hidden;
     height: 110px;
   }
-  
+
   .train-container .two-blog .blog-link .details a {
     background: var(--purple);
     color: white;
@@ -770,19 +768,19 @@ html {
     margin-left: 100px;
     margin-bottom: 50px;
   }
-  
+
   .about-container .about .des {
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     width: 500px;
     font-weight: 400;
     font-size: 1.2em;
@@ -801,8 +799,8 @@ html {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     width: 500px;
   }
 
@@ -821,7 +819,8 @@ html {
     letter-spacing: 3px;
   }
 
-  .email, .message{
+  .email,
+  .message {
     display: flex;
     flex-direction: column;
   }
@@ -842,12 +841,10 @@ html {
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
   }
-  
 }
 
-@media only screen and (max-width: 680px){
-
-  body{
+@media only screen and (max-width: 380px) {
+  body {
     /* background: rgb(245, 218, 218); */
   }
 
@@ -875,17 +872,17 @@ html {
     width: 350px;
   }
 
-  .newsletter-container .newsletter{
+  .newsletter-container .newsletter {
     flex-direction: column;
   }
 
   .newsletter-container .newsletter {
-    height: 200px;
+    height: 150px;
     width: 1850px;
-    padding: 20px;
+    padding: 10px;
   }
 
-  .newsletter-container .newsletter .enail-form{
+  .newsletter-container .newsletter .enail-form {
     display: flex;
     flex-direction: column !important;
   }
@@ -893,22 +890,29 @@ html {
   .newsletter-container .newsletter input {
     border: none;
     border-bottom: 2px solid;
-    width: 250px;
+    width: 150px !important;
     height: 40px !important;
-    font-size: 1em;
+    font-size: 0.7em;
     letter-spacing: 3px;
     text-align: center;
   }
 
-  .newsletter-container .newsletter button{
+  .newsletter-container .newsletter button {
     height: 40px;
+    padding: 0px !important;
     margin-left: 10px;
+    width: 150px;
+  }
+
+  .train-container {
+    padding: 20px;
   }
 
   .train-container .train-title {
     font-weight: 300;
     font-size: 1.8em;
     text-align: center;
+    margin-bottom: 0;
   }
 
   .train-container .two-blog {
@@ -917,7 +921,7 @@ html {
 
   .train-container .two-blog .blog-link {
     flex-direction: column;
-    width: 400px;
+    width: 300px;
     height: 300px;
   }
 
@@ -926,7 +930,7 @@ html {
     height: 0px;
     overflow: hidden;
   }
-  
+
   .train-container .two-blog .blog-link .img-box img {
     height: 0px;
   }
@@ -939,14 +943,14 @@ html {
     font-weight: 700;
     font-size: 1.1em;
   }
-  
+
   .train-container .two-blog .blog-link .details .description {
     letter-spacing: 0;
     font-size: 1em;
     overflow: hidden;
     height: 110px;
   }
-  
+
   .train-container .two-blog .blog-link .details a {
     background: var(--purple);
     color: white;
@@ -956,14 +960,18 @@ html {
     transition: all 0.1s ease-in-out;
   }
 
+  .about-container .border {
+    padding: 20px 0;
+  }
+
   .about-container .about {
     flex-direction: column;
     align-items: center;
   }
 
   .about-container .about-title {
-    font-size: 3em;
-    margin-bottom: 40px;
+    font-size: 2em;
+    margin-bottom: 20px;
   }
 
   .about-container .about img {
@@ -973,31 +981,35 @@ html {
     margin-left: 100px;
     margin-bottom: 50px;
   }
-  
+
   .about-container .about .des {
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-            padding: 0 30px;
-    width: 500px;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0 30px;
+    width: 300px;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 0.8em;
     letter-spacing: 2px;
+  }
+
+  .contact-container {
+    padding: 20px 0;
   }
 
   .contact-container .contact-title {
     padding: 0 20px;
     font-size: 1.5em;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
   }
 
   .contact-container .contact-form .name {
@@ -1005,13 +1017,13 @@ html {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    width: 400px;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 300px;
   }
 
   .contact-container .contact-form .name input {
-    width: 175px;
+    width: 125px;
   }
 
   .contact-container .contact-form input {
@@ -1019,13 +1031,14 @@ html {
     margin-bottom: 20px;
     border: none;
     border-bottom: 3px solid;
-    width: 400px;
+    width: 300px;
     font-size: 1em;
     padding-left: 20px;
     letter-spacing: 3px;
   }
 
-  .email, .message{
+  .email,
+  .message {
     display: flex;
     flex-direction: column;
   }
@@ -1046,6 +1059,5 @@ html {
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
   }
-  
 }
 /*# sourceMappingURL=style.css.map */
